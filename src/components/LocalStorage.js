@@ -25,7 +25,7 @@ class Storage {
    const newItems = items.filter((item)=>{
     return item.id !== id 
   })
-   Storage.setItem(newItems)
+   Storage.setItem(key,newItems)
   }
   static setItem(key,value){
     localStorage.setItem(key,JSON.stringify(value))
