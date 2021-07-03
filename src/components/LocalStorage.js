@@ -32,4 +32,8 @@ class Storage {
   }
 }
 
+<<<<<<< HEAD
 export default Storage
+=======
+export default Storage
+>>>>>>> 32ac753cf973947ac280e37b77a58b9f8ad478f9
